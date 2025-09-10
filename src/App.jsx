@@ -13,7 +13,7 @@ function App() {
     <AuthProvider>
       <CoffeeProvider>
         <CartProvider>
-          <BrowserRouter>
+          <BrowserRouter basename="/coffee-website">
             <Routes>
               <Route index element={<HomePage />} />
               <Route path="/menu" element={<MenuPage />} />
