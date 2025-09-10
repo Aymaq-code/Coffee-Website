@@ -1,0 +1,11 @@
+.menuPage {
+  background: $gradient-coffee;
+  min-height: 100vh;
+
+  &_cnt {
+    margin: 6rem auto;
+    padding: $spacing-md 0;
+    @include container;
+    border-radius: $border-radius-lg;
+  }
+}
