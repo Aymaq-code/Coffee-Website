@@ -15,14 +15,28 @@
 @import "../layouts/footer";
 @import "../layouts/megaMenu";
 @import "../pages/cartPage";
+@import "../layouts/aboutHead";
 
 // COMPONENTS
 @import "../components/buttom";
 @import "../components/appPromo";
 @import "../components/menuHead";
 @import "../components/menuList";
+@import "../components/blogPageDynamic";
+@import "../components/blogPages";
+@import "../components/categories";
+@import "../components/recentPosts";
+@import "../components/aboutPagePart1";
+@import "../components/aboutPagePart2";
+@import "../components/aboutPagePart3";
+@import "../components/aboutPagePart4";
 
 // PAGES
 @import "../pages/homePage";
 @import "../pages/logInPage";
 @import "../pages/menuPage";
+@import "../pages/reservePage";
+@import "../pages/blogPage";
+@import "../pages/AboutPage";
+@import "../pages/contactPage";
+@import "../pages/paymentPage";
