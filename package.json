@@ -11,7 +11,8 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "server": "json-server --watch public/data.json --port 4000",
+    "preview": "vite preview --host 0.0.0.0 --port 10000",
+    "start": "vite preview --host 0.0.0.0 --port 10000",
     "start": "serve -s dist"
   },
   "dependencies": {
