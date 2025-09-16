@@ -1,6 +1,6 @@
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import { useEffect, useRef } from "react";
-import { useNav } from "../context/CoffeeContext";
+import { useCoffee } from "../context/CoffeeContext";
 import { useAuth } from "../context/AuthProvider.jsx";
 import Logo from "./Logo";
 import Button from "../components/Buttom";
@@ -8,7 +8,7 @@ import MegaMenu from "./MegaMenu";
 import USER_SVG from "../assets/images/home/user-nav.svg";
 
 export default function Navigation() {
-  const { isMenuOpen, toggleMenu, closeMenu } = useNav();
+  const { isMenuOpen, toggleMenu, closeMenu } = useCoffee();
   const { user, isAuthenticated, logout } = useAuth();
   const navigate = useNavigate();
   const menuRef = useRef(null);

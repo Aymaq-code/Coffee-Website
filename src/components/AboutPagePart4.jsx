@@ -1,8 +1,8 @@
-import { useNav } from "../context/CoffeeContext";
+import { useCoffee } from "../context/CoffeeContext";
 import { useAnimation } from "../context/ScrollAnimationContext";
 
 export default function AboutPagePart4() {
-  const { teams, loading } = useNav();
+  const { teams, loading } = useCoffee();
   const { registerOnce } = useAnimation();
 
   //   if (loading) return <Snipper />;

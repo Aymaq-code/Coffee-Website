@@ -1,11 +1,11 @@
 import { NavLink, useParams } from "react-router-dom";
-import { useNav } from "../context/CoffeeContext";
+import { useCoffee } from "../context/CoffeeContext";
 import AppPromo from "./AppPromo";
 import Categories from "./Categories";
 import RecentPosts from "./RecentPosts";
 
 export default function BlogPageDynamic() {
-  const { blog, readMore, handleReadMore } = useNav();
+  const { blog, readMore, handleReadMore } = useCoffee();
   const { pageNo } = useParams();
 
   //   if (blog.length === 0) return <EmptyMsg />;

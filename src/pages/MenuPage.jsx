@@ -2,10 +2,8 @@ import Footer from "../layouts/Footer";
 import Navigation from "../layouts/Navigation";
 import MenuHead from "../components/MenuHead";
 import MenuList from "../components/MenuList";
-import { useNav } from "../context/CoffeeContext";
 
 export default function MenuPage() {
-  const { coffMenu } = useNav();
   return (
     <div className="menuPage">
       <Navigation />
@@ -16,7 +14,7 @@ export default function MenuPage() {
         }}
       >
         <MenuHead />
-        <MenuList coffMenu={coffMenu} />
+        <MenuList />
       </main>
       <Footer />
     </div>
