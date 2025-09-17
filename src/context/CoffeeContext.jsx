@@ -69,7 +69,9 @@ function CoffeeProvider({ children }) {
     async function fetchData() {
       dispatch({ type: "loading" });
       try {
-        const res = await fetch("https://renderr-sv80.onrender.com/db.json");
+        const res = await fetch(
+          "https://coffee-website-u1g6.onrender.com/db.json"
+        );
         const data = await res.json();
 
         // از این action type استفاده کنید
