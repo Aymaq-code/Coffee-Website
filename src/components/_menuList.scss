@@ -1,6 +1,5 @@
 .menu_coffeeLists {
-  border: 10px solid red;
-
+  @include container;
   margin: 4rem auto;
   box-shadow: $shadow-xl;
   display: grid;

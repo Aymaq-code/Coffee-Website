@@ -8,7 +8,6 @@ const initialState = {
   readMore: false,
   error: "",
   menus: [],
-  coffMenu: [],
   blog: [],
   categories: [],
   teams: [],
@@ -37,18 +36,6 @@ function reducer(state, action) {
         categories: action.payload.categories || [],
         teams: action.payload.teams || [],
       };
-
-    case "coffMenu/loaded":
-      return { ...state, loading: false, coffMenu: action.payload };
-
-    case "blog/loaded":
-      return { ...state, loading: false, blog: action.payload };
-
-    case "categories/loaded":
-      return { ...state, loading: false, categories: action.payload };
-
-    case "teams/loaded":
-      return { ...state, loading: false, teams: action.payload };
 
     case "rejected":
       return {
@@ -100,8 +87,7 @@ function CoffeeProvider({ children }) {
       value={{
         isMenuOpen: state.isMenuOpen,
         readMore: state.readMore,
-        menus: state.menus, // این اصلی است
-        coffMenu: state.menus, // اگر لازم است duplicate کنید
+        menus: state.menus,
         blog: state.blog,
         categories: state.categories,
         teams: state.teams,

@@ -8,7 +8,7 @@
       rgba($coffee-bg-darker, 0.9)
     ),
     url("/src/assets/images/menu/headImage.jpg");
-
+  @include container;
   background-size: cover;
   background-position: bottom;
   aspect-ratio: 15 / 5;
@@ -45,6 +45,7 @@
   }
 
   &-footer {
+    position: relative;
     width: 100%;
     opacity: 90%;
 

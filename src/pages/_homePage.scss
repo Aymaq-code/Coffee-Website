@@ -9,9 +9,15 @@
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   }
   &__right {
-    aspect-ratio: 13 / 10;
     animation: fade-left 1s ease 2s backwards;
+    img {
+      width: 85%;
+      height: 90%;
+      display: block;
+      float: right;
+    }
   }
+
   &__left {
     overflow: hidden;
     padding: 2rem;

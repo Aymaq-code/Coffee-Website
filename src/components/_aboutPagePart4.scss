@@ -109,16 +109,6 @@
 }
 
 // RESPONSIVE SOURCE CODE
-@include respond(tab-port) {
-  .aboutPagePart4 {
-    &__contents {
-      &-box {
-        &--text {
-        }
-      }
-    }
-  }
-}
 
 @include respond(phone) {
   .aboutPagePart4 {

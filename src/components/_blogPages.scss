@@ -26,7 +26,7 @@
           transition: all 0.3s ease;
           .time {
             font-size: 1.5rem;
-            color: $coffee-text-dark;
+            color: $coffee-text-primary;
             letter-spacing: 1px;
             display: flex;
             justify-content: left;
@@ -39,16 +39,17 @@
             }
           }
           .title {
-            color: $coffee-neutral-dark;
+            color: $coffee-text-dark;
             font-size: 2.5rem;
             letter-spacing: 1px;
             line-height: 3.5rem;
             margin-top: 2rem;
+            opacity: 0.8;
           }
           .details,
           .readMore {
             p {
-              color: $coffee-primary-dark;
+              color: $coffee-text-dark;
               letter-spacing: 1px;
               text-transform: none;
               font-size: 1.6rem;
