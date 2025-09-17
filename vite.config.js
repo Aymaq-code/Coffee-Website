@@ -7,6 +7,6 @@ export default defineConfig({
   preview: {
     port: 10000,
     host: "0.0.0.0",
-    allowedHosts: ["renderr-sv80.onrender.com"],
+    allowedHosts: ["coffee-website-u1g6.onrender.com"],
   },
 });

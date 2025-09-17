@@ -25,13 +25,13 @@ function App() {
               <Routes>
                 <Route index element={<HomePage />} />
                 <Route path="/menu" element={<MenuPage />} />
-                {/* <Route path="/reserve" element={<ReservePage />} /> */}
-                {/* <Route path="/about" element={<AboutPage />} />
-                <Route path="/contact" element={<ContactPage />} /> */}
-                {/* <Route path="/blog" element={<BlogPage />}>
+                <Route path="/reserve" element={<ReservePage />} />
+                <Route path="/about" element={<AboutPage />} />
+                <Route path="/contact" element={<ContactPage />} />
+                <Route path="/blog" element={<BlogPage />}>
                   <Route index element={<Navigate to="page/1" replace />} />
                   <Route path="page/:pageNo" element={<BlogPageDynamic />} />
-                </Route> */}
+                </Route>
                 <Route path="/login" element={<LogInPage />} />
                 <Route path="/cart" element={<CartPage />} />
                 <Route path="/payment" element={<PaymentPage />} />
