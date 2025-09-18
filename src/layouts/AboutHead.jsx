@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Logo from "./Logo";
+import HEAD_IMG from "../assets/images/about/pngwing.com (1).png";
 
 export default function AboutHead() {
   return (
@@ -12,7 +12,7 @@ export default function AboutHead() {
         </h3>
       </div>
       <div className="barHeader__box  box--center">
-        <Logo />
+        <img src={HEAD_IMG} alt="" />
       </div>
       <div className="barHeader__box box--right">
         <Link to="/">Home</Link>

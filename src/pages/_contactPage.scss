@@ -172,18 +172,18 @@
           align-self: center;
         }
 
-        animation: fade-right 3s ease backwards;
+        animation: fade-right 30s ease backwards;
         animation-timeline: view();
-        animation-range: entry 0% cover 30%;
+        animation-range: entry 0% cover 80%;
       }
       .card-1 {
-        animation-delay: 2s;
+        animation-delay: 5s;
       }
       .card-2 {
-        animation-delay: 3s;
+        animation-delay: 10s;
       }
       .card-3 {
-        animation-delay: 4s;
+        animation-delay: 15s;
       }
     }
 
@@ -205,6 +205,15 @@
         flex-direction: column;
         width: 80%;
 
+        h3,
+        h1,
+        &__input {
+          transform: translateY(50px);
+          animation: fade-down 3s ease forwards;
+          animation-timeline: view();
+          animation-range: entry 0% cover 80%;
+        }
+
         h1 {
           font-family: "treasury", sans-serif;
           line-height: 7rem;
@@ -213,15 +222,12 @@
           color: $coffee-neutral-medium;
           text-transform: capitalize;
           text-align: center;
-          transform: translateY(-50px);
-          opacity: 0;
         }
         h3 {
           font-family: pacifico;
           font-size: 4rem;
           font-weight: 300;
           color: $coffee-neutral-medium;
-          opacity: 0;
         }
         &__input {
           margin-top: 4rem;
@@ -233,8 +239,6 @@
           justify-content: space-between;
           width: 60%;
           font-size: 1.5rem;
-          transform: translateY(50px);
-          opacity: 0;
 
           input {
             font-size: 1.5rem;
@@ -281,22 +285,6 @@
   }
   .contactPage__contents-map {
     animation: zoomOut 1s ease 1.7s forwards;
-  }
-}
-
-.in-view-once {
-  .contactPage__contents-slide {
-    .contents {
-      h3 {
-        animation: fade-down 1s ease forwards;
-      }
-      h1 {
-        animation: fade-down 0.7s ease 0.5s forwards;
-      }
-    }
-    .contents__input {
-      animation: fade-down 0.7s ease 0.5s forwards;
-    }
   }
 }
 

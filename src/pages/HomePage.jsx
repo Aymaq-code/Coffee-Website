@@ -1,6 +1,6 @@
 import Navigation from "../layouts/Navigation";
 import Button from "../components/Buttom";
-import HOME_IMG from "../assets/images/home/img1.png";
+import HOME_IMG from "../assets/images/home/coffee__home3.png";
 
 export default function Home() {
   return (
