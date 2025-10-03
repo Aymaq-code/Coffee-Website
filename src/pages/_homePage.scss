@@ -112,7 +112,8 @@
       gap: 100px 0;
     }
     &__right {
-      aspect-ratio: 5 / 3;
+      aspect-ratio: 4 / 3;
+      bottom: 0;
     }
   }
 }
@@ -120,5 +121,11 @@
   .home {
     padding: 0 !important;
     min-height: 165vh;
+    &__content {
+      margin: 4rem auto !important;
+    }
+    &__right {
+      height: 45rem;
+    }
   }
 }

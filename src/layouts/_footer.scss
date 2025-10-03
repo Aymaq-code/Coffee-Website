@@ -61,6 +61,9 @@
         @media screen and (max-width: 500px) {
           padding: 2rem 3rem;
           border-radius: 100px;
+          background-color: $coffee-accent-warm !important;
+          font-size: 2.7rem !important;
+          padding: 1.4rem 2rem !important;
         }
 
         border: none;

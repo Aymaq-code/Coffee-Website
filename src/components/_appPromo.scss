@@ -89,3 +89,15 @@
     }
   }
 }
+
+// RESPONSIVE CODES
+
+@include respond(phone) {
+  .appPromo {
+    &__contents {
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 35rem 0;
+    }
+  }
+}

@@ -1,4 +1,5 @@
 .aboutPagePart3 {
+  position: relative;
   background-image: linear-gradient(
     -125deg,
     $coffee-bg-dark 50%,
@@ -31,13 +32,11 @@
     top: 15rem;
     height: 50rem;
     width: 30rem;
-    z-index: -1;
     transform: rotate(80deg);
-    animation: waverRouter 1s ease;
+    animation: waverRouter 5s ease;
     animation-timeline: view();
     animation-range: entry 0% cover 100%;
   }
-
   &__contents {
     @include container;
     overflow: hidden;
@@ -46,9 +45,8 @@
     gap: 0 30px;
 
     &-left {
-      position: relative;
       width: 30%;
-
+      position: relative;
       height: 45rem;
       border-radius: 30px;
       background-image: url("/src/assets/images/about/img4.jpg");

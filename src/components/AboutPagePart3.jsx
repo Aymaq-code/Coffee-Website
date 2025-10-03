@@ -1,6 +1,6 @@
 import { useAnimation } from "../context/ScrollAnimationContext";
 import SHK_4 from "../assets/images/about/shk-4.png";
-import SHK_6 from "../assets/images/about/shk-4.png";
+import SHK_6 from "../assets/images/about/shk-6.png";
 
 export default function AboutSection3() {
   const { registerOnce } = useAnimation();

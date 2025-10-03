@@ -2,6 +2,7 @@ import IMG_6 from "../assets/images/blog/img6.png";
 import IMG_7 from "../assets/images/blog/img7.png";
 import IMG_8 from "../assets/images/blog/img8.png";
 import IMG_9 from "../assets/images/blog/img9.png";
+import DOW_SVG from "../assets/images/blog/download-svg.svg";
 import Button from "./Buttom";
 
 export default function AppPromo() {
@@ -16,10 +17,7 @@ export default function AppPromo() {
             order with ease.
           </p>
           <Button type={"secondary"}>
-            <img
-              src="/public/images/blog/download-svg.svg"
-              alt="Download App"
-            />
+            <img src={DOW_SVG} alt="Download App" />
             Download Now
           </Button>
         </div>
