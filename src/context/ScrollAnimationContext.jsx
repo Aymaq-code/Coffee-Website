@@ -16,7 +16,7 @@ export function ScrollAnimationProvider({ children }) {
             obs.unobserve(node); // one-and-done
           }
         },
-        { threshold: 0.24 }
+        { threshold: 0.1 }
       );
       observer.observe(node);
     };

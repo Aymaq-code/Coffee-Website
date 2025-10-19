@@ -329,6 +329,27 @@
       }
     }
   }
+  .contents__input {
+    flex-direction: column;
+    background-color: transparent !important;
+    width: 100% !important;
+
+    border-radius: 0 !important;
+    padding: 1rem 4rem !important;
+    gap: 7px;
+    align-items: center !important;
+    justify-content: center !important;
+    input {
+      width: 100% !important;
+      background-color: $coffee-accent-blue !important;
+      border-radius: 100px !important;
+      padding: 10px 25px !important;
+    }
+
+    button {
+      width: 110% !important;
+    }
+  }
 }
 
 @include respond(phone) {

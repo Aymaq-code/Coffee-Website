@@ -33,8 +33,7 @@ export default function Contact() {
             height="751"
             allowFullScreen
             loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          ></iframe>
+            referrerPolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div className="contactPage__contents-details">
           <div className="card card-1 ">
@@ -42,8 +41,7 @@ export default function Contact() {
               viewBox="0 0 24 24"
               fill="none"
               aria-hidden="true"
-              className="location-icon"
-            >
+              className="location-icon">
               <path
                 d="M12 22s7-7.75 7-13a7 7 0 1 0-14 0c0 5.25 7 13 7 13Z"
                 stroke="currentColor"
@@ -70,8 +68,7 @@ export default function Contact() {
               viewBox="0 0 24 24"
               fill="none"
               aria-hidden="true"
-              className="email-icon"
-            >
+              className="email-icon">
               <path
                 d="M4 6h16v12H4V6Z"
                 stroke="currentColor"
@@ -100,8 +97,7 @@ export default function Contact() {
               viewBox="0 0 24 24"
               fill="none"
               aria-hidden="true"
-              className="phone-icon"
-            >
+              className="phone-icon">
               <path
                 d="M22 16.92v3a2 2 0 0 1-2.18 2
        19.79 19.79 0 0 1-8.63-3.07

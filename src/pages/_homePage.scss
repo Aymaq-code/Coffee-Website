@@ -1,7 +1,7 @@
 .home {
   background-image: $gradient-coffee;
   min-height: 100vh;
-
+  overflow: auto;
   &__content {
     @include container;
     display: grid;

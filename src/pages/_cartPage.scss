@@ -39,18 +39,22 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-
+      span {
+        font-size: 2rem;
+        color: $coffee-neutral-light;
+        font-weight: bold;
+      }
       button {
         border-radius: 4px;
         padding: 0.9rem 2rem;
         font-weight: 300;
-        font-size: 1rem;
+        font-size: 1.4rem;
       }
     }
     &-total {
       strong {
-        font-size: 1.5rem;
-        color: $coffee-neutral-dark;
+        font-size: 2rem;
+        color: $coffee-neutral-light;
       }
     }
     &-cart {

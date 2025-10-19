@@ -28,7 +28,7 @@
           transform: translateY(300px);
           animation: waverUp 0.3 ease;
           animation-timeline: view();
-          animation-range: entry 0% cover 127%;
+          animation-range: entry 0% cover 220%;
         }
       }
       .right {
@@ -120,7 +120,7 @@
       display: flex;
       flex-wrap: wrap;
       gap: 80px 30px;
-      animation: none;
+      animation: none !important;
 
       &__inputs {
         position: relative;

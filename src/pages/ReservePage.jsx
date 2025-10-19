@@ -1,14 +1,17 @@
 import { useState } from "react";
+import { useAnimation } from "../context/ScrollAnimationContext";
 import Navigation from "../layouts/Navigation";
 import Footer from "../layouts/Footer";
 import Button from "../components/Buttom";
-
 import IMG_1 from "../assets/images/reserve/img1.jpg";
 import IMG_2 from "../assets/images/reserve/img2.jpg";
-
 import PER_SVG from "../assets/images/reserve/person.svg";
-import { useAnimation } from "../context/ScrollAnimationContext";
-
+import EMAIL_SVG from "../assets/images/reserve/email.svg";
+import PHONE_SVG from "../assets/images/reserve/phone.svg";
+import DATE_SVG from "../assets/images/reserve/calender.svg";
+import CLOCK_SVG from "../assets/images/reserve/clock.svg";
+import PEOPLE_SVG from "../assets/images/reserve/people.svg";
+import MSG_SVG from "../assets/images/reserve/message.svg";
 export default function ReservePage() {
   const { registerOnce } = useAnimation();
   const [formData, setFormData] = useState({
@@ -92,7 +95,7 @@ export default function ReservePage() {
           <div className="form">
             {/* Name */}
             <span className="form__inputs">
-              <img src="/images/reserve/person.svg" alt="person-svg" />
+              <img src={PER_SVG} alt="person-svg" />
               <input
                 type="text"
                 name="name"
@@ -105,7 +108,7 @@ export default function ReservePage() {
 
             {/* Email */}
             <span className="form__inputs">
-              <img src="/images/reserve/email.svg" alt="email-svg" />
+              <img src={EMAIL_SVG} alt="email-svg" />
               <input
                 type="text"
                 name="email"
@@ -118,7 +121,7 @@ export default function ReservePage() {
 
             {/* Phone */}
             <span className="form__inputs">
-              <img src="/images/reserve/phone.svg" alt="phone-svg" />
+              <img src={PHONE_SVG} alt="phone-svg" />
               <input
                 type="text"
                 name="phone"
@@ -131,7 +134,7 @@ export default function ReservePage() {
 
             {/* Date */}
             <span className="form__inputs">
-              <img src="/images/reserve/calender.svg" alt="calender-svg" />
+              <img src={DATE_SVG} alt="calender-svg" />
               <input
                 type="text"
                 name="date"
@@ -144,7 +147,7 @@ export default function ReservePage() {
 
             {/* Time */}
             <span className="form__inputs">
-              <img src="/images/reserve/clock.svg" alt="clock-svg" />
+              <img src={CLOCK_SVG} alt="clock-svg" />
               <input
                 type="text"
                 name="time"
@@ -157,7 +160,7 @@ export default function ReservePage() {
 
             {/* Person */}
             <span className="form__inputs">
-              <img src="/images/reserve/people.svg" alt="people-svg" />
+              <img src={PEOPLE_SVG} alt="people-svg" />
               <input
                 type="text"
                 name="person"
@@ -170,7 +173,7 @@ export default function ReservePage() {
 
             {/* Message */}
             <div className="form__message">
-              <img src="/images/reserve/message.svg" alt="message-svg" />
+              <img src={MSG_SVG} alt="message-svg" />
               <textarea
                 name="message"
                 placeholder="Message*"

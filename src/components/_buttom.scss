@@ -110,7 +110,7 @@
   padding: 0;
   background: transparent;
   position: absolute;
-  left: calc(310px + 5rem);
+  right: 10px;
   bottom: 0;
   animation: fade-right 0.5s ease;
   animation-timeline: view();
@@ -208,12 +208,6 @@
   .primary {
     font-size: 2.5rem;
     padding: $spacing-md $spacing-2xl;
-  }
-
-  // responsive order button
-
-  .orderBtn {
-    left: calc(215px + 5rem);
   }
 }
 
